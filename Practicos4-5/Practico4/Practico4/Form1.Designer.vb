@@ -79,14 +79,14 @@ Partial Class Form1
         '
         'TDesde
         '
-        Me.TDesde.Location = New System.Drawing.Point(175, 70)
+        Me.TDesde.Location = New System.Drawing.Point(165, 70)
         Me.TDesde.Name = "TDesde"
         Me.TDesde.Size = New System.Drawing.Size(100, 20)
         Me.TDesde.TabIndex = 4
         '
         'THasta
         '
-        Me.THasta.Location = New System.Drawing.Point(175, 119)
+        Me.THasta.Location = New System.Drawing.Point(165, 119)
         Me.THasta.Name = "THasta"
         Me.THasta.Size = New System.Drawing.Size(100, 20)
         Me.THasta.TabIndex = 5

@@ -62,10 +62,10 @@ Partial Class Form1
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Apellido, Me.Nombre, Me.FechaNacimiento, Me.Sexo, Me.Saldo, Me.Eliminar, Me.Foto})
-        Me.DataGridView1.Location = New System.Drawing.Point(3, 298)
+        Me.DataGridView1.Location = New System.Drawing.Point(3, 308)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(828, 185)
+        Me.DataGridView1.Size = New System.Drawing.Size(828, 175)
         Me.DataGridView1.TabIndex = 0
         '
         'Apellido
@@ -175,14 +175,14 @@ Partial Class Form1
         '
         'TNombre
         '
-        Me.TNombre.Location = New System.Drawing.Point(195, 40)
+        Me.TNombre.Location = New System.Drawing.Point(195, 49)
         Me.TNombre.Name = "TNombre"
         Me.TNombre.Size = New System.Drawing.Size(202, 20)
         Me.TNombre.TabIndex = 6
         '
         'TApellido
         '
-        Me.TApellido.Location = New System.Drawing.Point(195, 78)
+        Me.TApellido.Location = New System.Drawing.Point(195, 87)
         Me.TApellido.Name = "TApellido"
         Me.TApellido.Size = New System.Drawing.Size(202, 20)
         Me.TApellido.TabIndex = 7
@@ -197,7 +197,7 @@ Partial Class Form1
         '
         'TSaldo
         '
-        Me.TSaldo.Location = New System.Drawing.Point(195, 215)
+        Me.TSaldo.Location = New System.Drawing.Point(195, 219)
         Me.TSaldo.Name = "TSaldo"
         Me.TSaldo.Size = New System.Drawing.Size(202, 20)
         Me.TSaldo.TabIndex = 10
@@ -208,7 +208,7 @@ Partial Class Form1
         '
         'BAgregar
         '
-        Me.BAgregar.Location = New System.Drawing.Point(168, 254)
+        Me.BAgregar.Location = New System.Drawing.Point(160, 265)
         Me.BAgregar.Name = "BAgregar"
         Me.BAgregar.Size = New System.Drawing.Size(117, 25)
         Me.BAgregar.TabIndex = 12
